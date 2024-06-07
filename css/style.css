@@ -1309,7 +1309,8 @@ h3 span {
     bottom: 0;
 }
 .hamburger,
-.sp-nav {
+.sp-nav,
+.sp-favorite-name {
     display: none;
 }
 /* 画面サイズ768px以下になったらタテに戻って横幅100%になる */
@@ -1461,6 +1462,15 @@ h3 span {
     }
 
     /* わたしスタート */
+    .favorite-name{
+        display: none;
+    }
+    .sp-favorite-name{
+        display: block;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
     .profile ul {
         display: block;
     }
@@ -1490,8 +1500,8 @@ h3 span {
 
     .webdesigner_icon {
         position: relative;
-        bottom: -50px;
-        right: 10px;
+        top: -320px;
+        right: 40px;
     }
 
     .mewrap {
@@ -1521,10 +1531,20 @@ h3 span {
         justify-content: center;
         align-items: center;
     }
+    .fish_wave{
+        max-width:100% 
+    }
     .favorite-name {
         text-align: justify;
         margin-right: 10px;
         margin-left: 10px;
+    }
+    .about-text{
+        position: absolute;
+        top: 10%;
+        margin-right: 10px;
+        margin-left: 10px;
+
     }
     .work-ul {
         display: block;
