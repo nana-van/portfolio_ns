@@ -338,16 +338,16 @@
         $(function () {
             //ロ➖ド上3秒後にアニメーションを非表示にする
             setTimeout(function () {
-                $('.loading-content').fadeOut(600);
+                $('.loading-content').fadeOut(6000);
             }, 3000);
         });
-
+        // 初回のみローディング表示
         const webStorage = function () {
             if (sessionStorage.getItem('visit')) {
-                $(".loading-bg").css("display", "none");
+                $(".loading-content").css("display", "none");
             } else {
                 sessionStorage.setItem('visit', 'true');
-                $(".loading-bg").delay(4000).fadeOut(4000);
+                $(".loading-content").delay(3000).fadeOut(2000);
             }
         }
         webStorage();

@@ -166,7 +166,7 @@ img {
     height: 25px;
     animation-delay: 4s;
     /* 15s */
-    animation-duration: 8s;
+    animation-duration: 4s;
     /* 45S */
 }
 .circles li:nth-child(9) {
@@ -174,7 +174,7 @@ img {
     width: 15px;
     height: 15px;
     animation-delay: 2s;
-    animation-duration: 8s;
+    animation-duration: 3s;
     /* 35S */
 }
 .circles li:nth-child(10) {
@@ -182,9 +182,9 @@ img {
     width: 150px;
     height: 150px;
     animation-delay: 0s;
-    animation-duration: 8s;
+    animation-duration: 3s;
     /* 11S */
-}
+} 
 
 @keyframes animate {
     0% {
@@ -887,7 +887,8 @@ form a:hover {
 .slide-bottom {
     opacity: 0;
     transform: translateY(20px);
-    transition: all 1.3s 3s ease-out;
+    transition: all 1.3s 0s ease-out;
+    何秒でアニメーション・開始タイミング・スピード
 }
 
 /* indexおわり */
@@ -1413,7 +1414,7 @@ h3 span {
         width: 35%;
     }
 
-    .Works_icon .skills_wrap,
+    .skills_wrap,
     .box_1wrap,
     .op_wrap {
         display: block;
@@ -1454,6 +1455,9 @@ h3 span {
     }
     .pagetop {
         display: none;
+    }
+    .ppagree a{
+        color: #ffae00;
     }
 
     /* わたしスタート */
