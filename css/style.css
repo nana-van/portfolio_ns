@@ -858,9 +858,10 @@ form a:hover {
 
 .pagetop {
     position: relative;
-    position: fixed;
     bottom: 187px;
     right: 207px;
+    display: flex;
+    justify-content: flex-end;
 }
 .pagetop img {
     width: 100px;
@@ -872,7 +873,7 @@ form a:hover {
 .pagetop img:last-of-type {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     opacity: 0;
 }
 .pagetop:hover img:last-of-type {
@@ -1062,7 +1063,7 @@ html {
     width: 40%;
     position: absolute;
     top: -180px;
-    left: 10x;
+    right: 30px;
 }
 
 .name-eg {
@@ -1101,7 +1102,7 @@ html {
     text-align: justify;
     margin: 0 auto;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 0%;
     right: 0%;
 }
@@ -1320,6 +1321,10 @@ h3 span {
     .pc-logo {
         display: none;
     }
+
+    header {
+        position: static;
+    }
     .hamburger {
         display: block;
         position: absolute;
@@ -1499,9 +1504,9 @@ h3 span {
     }
 
     .webdesigner_icon {
-        position: relative;
-        top: -320px;
-        right: 40px;
+        position: absolute;
+        top: -150px;
+        right: 280px;
     }
 
     .mewrap {
