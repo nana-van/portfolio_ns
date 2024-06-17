@@ -184,7 +184,7 @@ img {
     animation-delay: 0s;
     animation-duration: 3s;
     /* 11S */
-} 
+}
 
 @keyframes animate {
     0% {
@@ -889,7 +889,7 @@ form a:hover {
     opacity: 0;
     transform: translateY(20px);
     transition: all 1.3s 0s ease-out;
-    何秒でアニメーション・開始タイミング・スピード
+    /* 何秒でアニメーション・開始タイミング・スピード */
 }
 
 /* indexおわり */
@@ -898,6 +898,7 @@ form a:hover {
 html {
     scroll-behavior: smooth;
 }
+
 .menu {
     z-index: 1;
     position: fixed;
@@ -1462,19 +1463,18 @@ h3 span {
     .pagetop {
         display: none;
     }
-    .ppagree a{
+    .ppagree a {
         color: #ffae00;
     }
 
     /* わたしスタート */
-    .favorite-name{
+    .favorite-name {
         display: none;
     }
-    .sp-favorite-name{
+    .sp-favorite-name {
         display: block;
         padding-right: 10px;
         padding-left: 10px;
-
     }
     .profile ul {
         display: block;
@@ -1536,21 +1536,20 @@ h3 span {
         justify-content: center;
         align-items: center;
     }
-    .fish_wave{
-        max-width:100% 
+    .fish_wave {
+        max-width: 100%;
     }
     .favorite-name {
         text-align: justify;
         margin-right: 10px;
         margin-left: 10px;
     }
-    .about-text{
+    .about-text {
         position: absolute;
         line-height: 2;
         top: 20%;
         margin-right: 10px;
         margin-left: 10px;
-
     }
     .work-ul {
         display: block;
@@ -1583,10 +1582,4 @@ h3 span {
         padding-right: 10px;
         padding-left: 10px;
     }
-
-    /* .webdesigner_icon {
-        position: relative;
-        bottom: 50px;
-        right: -10px;
-    } */
 }
