@@ -1475,6 +1475,7 @@ h3 span {
         display: block;
         padding-right: 10px;
         padding-left: 10px;
+        line-height: 1.75;
     }
     .profile ul {
         display: block;
@@ -1551,6 +1552,9 @@ h3 span {
         margin-right: 10px;
         margin-left: 10px;
     }
+    .concept p {
+        line-height: 1.75;
+    }
     .work-ul {
         display: block;
     }
@@ -1558,6 +1562,7 @@ h3 span {
         display: block;
         /* margin: 10px; */
     }
+
     .info-wrap {
         padding-right: 50px;
         padding-left: 50px;
@@ -1581,5 +1586,18 @@ h3 span {
     .pp-text {
         padding-right: 10px;
         padding-left: 10px;
+    }
+    .overview {
+        width: 100%;
+    }
+    h3 span {
+        font-size: 16px;
+    }
+    .link-skills,
+    .definition {
+        font-size: 14px;
+    }
+    .link-skills {
+        width: 95%;
     }
 }
