@@ -1389,6 +1389,7 @@ h3 span {
         height: 100vh;
         width: 270px;
         background: rgba(63, 167, 201, 0.8);
+        z-index: 999;
     }
     .sp-nav ul {
         height: 100%;
@@ -1596,8 +1597,5 @@ h3 span {
     .link-skills,
     .definition {
         font-size: 14px;
-    }
-    .link-skills {
-        width: 95%;
     }
 }
